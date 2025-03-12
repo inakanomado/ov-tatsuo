@@ -5,21 +5,21 @@
 <head>
 	<!-- Google tag (gtag.js) -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9MXQM18N1V"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-9MXQM18N1V"></script>
 
-<script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-  window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
 
-  function gtag(){dataLayer.push(arguments);}
-
-  gtag('js', new Date());
+		gtag('js', new Date());
 
 
 
-  gtag('config', 'G-9MXQM18N1V');
-
-</script>
+		gtag('config', 'G-9MXQM18N1V');
+	</script>
 	<?php wp_head(); ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="shortcut icon" href=""><!-- favicon設定 -->

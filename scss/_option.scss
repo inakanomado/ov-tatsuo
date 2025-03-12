@@ -1,0 +1,33 @@
+$pad: 1100px; // ipadpro
+$tab: 800px; // ipad
+$sp: 600px; // スマホ
+$letterspacing: 26; //文字間隔
+$lineheight: 28px; //文字の高さ
+$fontsize: 16px;
+
+
+@mixin line-height($psd-size, $font_size: 16px) {
+	line-height: $psd-size / $font_size;
+}
+
+@mixin letter-spacing($trakking) {
+	letter-spacing: $trakking / 1000 + em;
+}
+
+@mixin pad {
+	@media (max-width: ($pad)) {
+		@content;
+	}
+}
+
+@mixin tab {
+	@media (max-width: ($tab)) {
+		@content;
+	}
+}
+
+@mixin sp {
+	@media (max-width: ($sp)) {
+		@content;
+	}
+}

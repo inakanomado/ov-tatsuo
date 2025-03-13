@@ -1,1072 +1,1080 @@
 @use 'option';
 
 h2 {
-    width: 100%;
-    font-size: 28px;
-    margin: 0 auto;
-    margin-bottom: 40px;
+	width: 100%;
+	font-size: 28px;
+	margin: 0 auto;
+	margin-bottom: 40px;
 
-    @include option.pad {
-        margin-bottom: 20px;
-    }
+	@include option.pad {
+		margin-bottom: 20px;
+	}
 
-    @include option.sp {
-        font-size: 22px;
-    }
+	@include option.sp {
+		font-size: 22px;
+	}
 
-    span {
-        height: 16px;
-        align-items: center;
-        margin-top: 30px;
+	span {
+		height: 16px;
+		align-items: center;
+		margin-top: 30px;
 
-        @include option.pad {
-            margin-top: 10px;
-        }
+		@include option.pad {
+			margin-top: 10px;
+		}
 
-        &::before {
-            content: '';
-            display: inline-block;
-            width: 50px;
-            border-bottom: 1px solid #6BC643;
-            margin-right: 5px;
-        }
+		&::before {
+			content: '';
+			display: inline-block;
+			width: 50px;
+			border-bottom: 1px solid #6bc643;
+			margin-right: 5px;
+		}
 
-        img {
-            width: auto;
-        }
-    }
+		img {
+			width: auto;
+		}
+	}
 }
 
 .backmovie {
-    width: 100%;
-    height: 100vh;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    background-color: #fff;
+	width: 100%;
+	height: 100vh;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	background-color: #fff;
 
-    &:before {
-        content: '';
-        display: inline-block;
-        width: 15%;
-        height: 100vh;
-        background-color: #222;
-        position: absolute;
-        left: -15%;
-        top: 0;
-    }
+	&:before {
+		content: '';
+		display: inline-block;
+		width: 15%;
+		height: 100vh;
+		background-color: #222;
+		position: absolute;
+		left: -15%;
+		top: 0;
+	}
 
-    &.animated {
-        animation: leftmove 0.8s ease 0s 1 forwards;
-    }
+	&.animated {
+		animation: leftmove 0.8s ease 0s 1 forwards;
+	}
 }
 
 .top-img {
-    height: 100vh;
+	height: 100vh;
 
-    .back-img {
-        height: 100%;
+	.back-img {
+		height: 100%;
 
-        img {
-            object-fit: cover;
-        }
-    }
+		img {
+			object-fit: cover;
+		}
+	}
 
-    .back-text {
-        height: 260px;
-        left: 0;
-        bottom: 60px;
-    }
+	.back-text {
+		height: 260px;
+		left: 0;
+		bottom: 60px;
+	}
 
-    .top-text {
-        height: 150px;
-        bottom: 120px;
-        left: 100px;
+	.top-text {
+		height: 150px;
+		bottom: 120px;
+		left: 100px;
 
-        .out {
-            overflow: hidden;
+		.out {
+			overflow: hidden;
 
-            .inn {
-                height: 75px;
-                opacity: 0;
+			.inn {
+				height: 75px;
+				opacity: 0;
 
-                img {
-                    width: auto;
-                }
-            }
-        }
+				img {
+					width: auto;
+				}
+			}
+		}
 
-        &.animated {
-            .out {
-                .inn {
-                    animation: bottom 0.8s ease 0s 1 forwards;
-                }
+		&.animated {
+			.out {
+				.inn {
+					animation: bottom 0.8s ease 0s 1 forwards;
+				}
 
-                &:nth-child(2) {
-                    .inn {
-                        animation: bottom 0.8s ease 0.4s 1 forwards;
-                    }
-                }
-            }
-        }
+				&:nth-child(2) {
+					.inn {
+						animation: bottom 0.8s ease 0.4s 1 forwards;
+					}
+				}
+			}
+		}
 
-        @include option.tab {
-            height: 100px;
-            bottom: 60px;
-            left: 40px;
-        }
+		@include option.tab {
+			height: 100px;
+			bottom: 60px;
+			left: 40px;
+		}
 
-        @include option.sp {
-            height: 65px;
-            left: 0px;
-            bottom: 210px;
+		@include option.sp {
+			height: 65px;
+			left: 0px;
+			bottom: 210px;
 
-            .out {
-                &:first-child {
-                    .inn {
-                        height: 120px;
-                    }
-                }
+			.out {
+				&:first-child {
+					.inn {
+						height: 120px;
+					}
+				}
 
-                &:last-child {
-                    .inn {
-                        height: 65px;
-                    }
-                }
-            }
-        }
-    }
+				&:last-child {
+					.inn {
+						height: 65px;
+					}
+				}
+			}
+		}
+	}
 }
 
 .about-cont {
-    width: calc(100% - 100px);
-    align-items: stretch;
-    margin-bottom: 100px;
+	width: calc(100% - 100px);
+	align-items: stretch;
+	margin-bottom: 100px;
 
-    @include option.tab {
-        width: 100%;
-        padding: 0 3%;
-        box-sizing: border-box;
-        margin-bottom: 60px;
-        flex-direction: column-reverse;
-    }
+	@include option.tab {
+		width: 100%;
+		padding: 0 3%;
+		box-sizing: border-box;
+		margin-bottom: 60px;
+		flex-direction: column-reverse;
+	}
 
-    @include option.sp {
-        margin-bottom: 60px;
-    }
+	@include option.sp {
+		margin-bottom: 60px;
+	}
 
-    .dot {
-        width: 230px;
-        top: 0;
-        right: 0;
-        z-index: -1;
-    }
+	.dot {
+		width: 230px;
+		top: 0;
+		right: 0;
+		z-index: -1;
+	}
 
-    .back-text {
-        height: 100px;
-        right: 0;
-        bottom: -100px;
+	.back-text {
+		height: 100px;
+		right: 0;
+		bottom: -100px;
 
-        @include option.tab {
-            height: 60px;
-            bottom: -40px;
-        }
+		@include option.tab {
+			height: 60px;
+			bottom: -40px;
+		}
 
-        @include option.sp {
-            display: none;
-        }
-    }
+		@include option.sp {
+			display: none;
+		}
+	}
 
-    .sp {
-        display: none;
+	.sp {
+		display: none;
 
-        @include option.sp {
-            display: block;
-            bottom: 0;
-            left: 0;
-            height: 170px;
-            z-index: -1;
-        }
-    }
+		@include option.sp {
+			display: block;
+			bottom: 0;
+			left: 0;
+			height: 170px;
+			z-index: -1;
+		}
+	}
 
-    .left {
-        width: 45%;
+	.left {
+		width: 45%;
 
-        @include option.tab {
-            width: 100%;
-            height: auto;
-            margin-top: 30px;
-        }
+		@include option.tab {
+			width: 100%;
+			height: auto;
+			margin-top: 30px;
+		}
 
-        img {
-            object-fit: cover;
-        }
-    }
+		img {
+			object-fit: cover;
+		}
+	}
 
-    .right {
-        width: calc(55% - 60px);
-        margin-left: 60px;
-        padding-bottom: 30px;
-        padding-top: 60px;
+	.right {
+		width: calc(55% - 60px);
+		margin-left: 60px;
+		padding-bottom: 30px;
+		padding-top: 60px;
 
-        .text {
-            @include option.line-height(30px);
-        }
+		.text {
+			@include option.line-height(30px);
+		}
 
-        @include option.pad {
-            padding-bottom: 0;
-        }
+		@include option.pad {
+			padding-bottom: 0;
+		}
 
-        @include option.tab {
-            width: 100%;
-            margin-left: 0;
-        }
-    }
+		@include option.tab {
+			width: 100%;
+			margin-left: 0;
+		}
+	}
 }
 
 .feature-cont {
-    margin-bottom: 100px;
+	margin-bottom: 100px;
 
-    @include option.sp {
-        margin-bottom: 60px;
-    }
+	@include option.sp {
+		margin-bottom: 60px;
+	}
 
-    h2 {
-        max-width: 1100px;
+	h2 {
+		max-width: 1100px;
 
-        @include option.pad {
-            max-width: 90%;
-            margin-bottom: 40px;
-        }
+		@include option.pad {
+			max-width: 90%;
+			margin-bottom: 40px;
+		}
 
-        @include option.sp {
-            max-width: 94%;
-        }
-    }
+		@include option.sp {
+			max-width: 94%;
+		}
+	}
 
-    .inner {
-        max-width: 1100px;
-        margin: 0 auto;
+	.inner {
+		max-width: 1100px;
+		margin: 0 auto;
 
-        @include option.pad {
-            max-width: 90%;
-        }
+		@include option.pad {
+			max-width: 90%;
+		}
 
-        @include option.sp {
-            max-width: 94%;
-        }
+		@include option.sp {
+			max-width: 94%;
+		}
 
-        .box {
-            width: calc(33.3% - 20px);
-            margin-right: 30px;
+		.box {
+			width: calc(33.3% - 20px);
+			margin-right: 30px;
 
-            @include option.sp {
-                width: 100%;
-                margin-right: 0px;
-                margin-bottom: 30px;
-            }
+			@include option.sp {
+				width: 100%;
+				margin-right: 0px;
+				margin-bottom: 30px;
+			}
 
-            &:last-child {
-                margin-right: 0;
-            }
+			&:last-child {
+				margin-right: 0;
+			}
 
-            .image {
-                width: 100%;
-                height: 290px;
+			.image {
+				width: 100%;
+				height: 290px;
 
-                img {
-                    object-fit: cover;
-                }
-            }
+				img {
+					object-fit: cover;
+				}
+			}
 
-            .content {
-                padding: 30px 50px;
-                box-sizing: border-box;
-                border-radius: 0 0px 5px 5px;
-                background-color: #fff;
-                box-shadow: 2px 2px 12px 0 rgba(242, 242, 242, 1);
-                height: calc(100% - 290px);
+			.content {
+				padding: 30px 50px;
+				box-sizing: border-box;
+				border-radius: 0 0px 5px 5px;
+				background-color: #fff;
+				box-shadow: 2px 2px 12px 0 rgba(242, 242, 242, 1);
+				height: calc(100% - 290px);
 
-                @include option.pad {
-                    padding: 20px 30px;
-                }
+				@include option.pad {
+					padding: 20px 30px;
+				}
 
-                .point {
-                    height: 16px;
-                    margin-bottom: 5px;
+				.point {
+					height: 16px;
+					margin-bottom: 5px;
 
-                    img {
-                        width: auto;
-                    }
-                }
+					img {
+						width: auto;
+					}
+				}
 
-                .head {
-                    font-weight: bold;
-                    padding-bottom: 10px;
-                    border-bottom: 1px solid #9F9F9F;
-                    margin-bottom: 10px;
+				.head {
+					font-weight: bold;
+					padding-bottom: 10px;
+					border-bottom: 1px solid #9f9f9f;
+					margin-bottom: 10px;
 
-                    @include option.pad {
-                        margin-bottom: 20px;
-                    }
-                }
+					@include option.pad {
+						margin-bottom: 20px;
+					}
+				}
 
-                .text {
-                    @include option.line-height(30px);
-                }
-            }
-        }
-    }
+				.text {
+					@include option.line-height(30px);
+				}
+			}
+		}
+	}
 }
 
 .declaration-cont {
-    width: calc(100% - 100px);
-    align-items: flex-start;
-    margin-bottom: 100px;
+	width: calc(100% - 100px);
+	align-items: flex-start;
+	margin-bottom: 100px;
 
-    @include option.tab {
-        width: 100%;
-        padding: 0 4%;
-        box-sizing: border-box;
-        margin-bottom: 60px;
-        flex-direction: column-reverse;
-    }
+	@include option.tab {
+		width: 100%;
+		padding: 0 4%;
+		box-sizing: border-box;
+		margin-bottom: 60px;
+		flex-direction: column-reverse;
+	}
 
-    @include option.sp {
-        margin-bottom: 0px;
-    }
+	@include option.sp {
+		margin-bottom: 0px;
+	}
 
-    .dot {
-        width: 230px;
-        top: 0;
-        right: 0;
-        z-index: -1;
-    }
+	.dot {
+		width: 230px;
+		top: 0;
+		right: 0;
+		z-index: -1;
+	}
 
-    .left {
-        width: 45%;
-        height: 470px;
+	.left {
+		width: 45%;
+		height: 470px;
 
-        @include option.tab {
-            width: 100%;
-            height: auto;
-            margin-bottom: 30px;
-        }
+		@include option.tab {
+			width: 100%;
+			height: auto;
+			margin-bottom: 30px;
+		}
 
-        img {
-            object-fit: cover;
-        }
-    }
+		img {
+			object-fit: cover;
+		}
+	}
 
-    .right {
-        width: calc(55% - 60px);
-        margin-left: 60px;
-        padding-bottom: 30px;
+	.right {
+		width: calc(55% - 60px);
+		margin-left: 60px;
+		padding-bottom: 30px;
 
-        @include option.tab {
-            width: 100%;
-            margin-left: 0;
-        }
+		@include option.tab {
+			width: 100%;
+			margin-left: 0;
+		}
 
-        .btn {
-            a {
-                color: #60C460;
-                text-decoration: underline;
-                align-items: center;
+		.btn {
+			a {
+				color: #60c460;
+				text-decoration: underline;
+				align-items: center;
 
-                &:after {
-                    content: '>';
-                    color: #60C460;
-                    display: inline-block;
-                    position: absolute;
-                    top: 50%;
-                    right: -10px;
-                    transform: translateY(-50%);
-                }
-            }
-        }
+				&:after {
+					content: '>';
+					color: #60c460;
+					display: inline-block;
+					position: absolute;
+					top: 50%;
+					right: -10px;
+					transform: translateY(-50%);
+				}
+			}
+		}
 
-        .text {
-            @include option.line-height(30px);
+		.text {
+			@include option.line-height(30px);
 
-            span {
-                display: block;
-                font-size: 28px;
-                margin-bottom: 10px;
-                color: #60C460;
-                font-weight: 500;
-            }
+			span {
+				display: block;
+				font-size: 28px;
+				margin-bottom: 10px;
+				color: #60c460;
+				font-weight: 500;
+			}
 
-            .name {
-                height: 40px;
-                text-align: right;
-                margin-bottom: 20px;
-                margin-top: 40px;
+			.name {
+				height: 40px;
+				text-align: right;
+				margin-bottom: 20px;
+				margin-top: 40px;
 
-                img {
-                    width: auto;
-                }
-            }
+				img {
+					width: auto;
+				}
+			}
 
-            .btn {
-                width: 130px;
-                margin: 40px 0 0 auto;
-                a{
-                    padding-right: 20px;
-                    box-sizing: border-box;
+			.btn {
+				width: 130px;
+				margin: 40px 0 0 auto;
+				a {
+					padding-right: 20px;
+					box-sizing: border-box;
 
-                    &:after{
-                        right: 0;
-                    }
-                }
-                
-            }
-        }
+					&:after {
+						right: 0;
+					}
+				}
+			}
+		}
 
-        .cont {
-            background-color: #F8F8F8;
-            padding: 25px 35px;
-            box-sizing: border-box;
-            margin-top: 50px;
-            font-size: 20px;
-            font-weight: 500;
+		.cont {
+			background-color: #f8f8f8;
+			padding: 25px 35px;
+			box-sizing: border-box;
+			margin-top: 50px;
+			font-size: 20px;
+			font-weight: 500;
 
-            div {
-                &.flex {
-                    margin-top: 20px;
+			div {
+				&.flex {
+					margin-top: 20px;
 
-                    .btn {
-                        margin-left: 30px;
-                    }
-                }
-            }
-        }
-    }
+					.btn {
+						margin-left: 30px;
+					}
+				}
+			}
+		}
+	}
 }
 
 .initiative-cont {
-    padding: 50px 0 100px 0;
-    box-sizing: border-box;
-    background: #f4fad8;
-    background: -moz-linear-gradient(-45deg, #f4fad8 0%, #daf2e4 100%);
-    background: -webkit-linear-gradient(-45deg, #f4fad8 0%, #daf2e4 100%);
-    background: linear-gradient(135deg, #f4fad8 0%, #daf2e4 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4fad8', endColorstr='#daf2e4', GradientType=1);
+	padding: 50px 0 100px 0;
+	box-sizing: border-box;
+	background: #f4fad8;
+	background: -moz-linear-gradient(-45deg, #f4fad8 0%, #daf2e4 100%);
+	background: -webkit-linear-gradient(-45deg, #f4fad8 0%, #daf2e4 100%);
+	background: linear-gradient(135deg, #f4fad8 0%, #daf2e4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4fad8', endColorstr='#daf2e4', GradientType=1);
 
-    @include option.sp {
-        padding: 60px 0;
-    }
+	@include option.sp {
+		padding: 60px 0;
+	}
 
+	h2 {
+		max-width: 1100px;
 
-    h2 {
-        max-width: 1100px;
+		@include option.pad {
+			max-width: 90%;
+			margin-bottom: 40px;
+		}
 
-        @include option.pad {
-            max-width: 90%;
-            margin-bottom: 40px;
-        }
+		@include option.sp {
+			max-width: 94%;
+		}
+	}
 
-        @include option.sp {
-            max-width: 94%;
-        }
-    }
+	.back-text {
+		height: 140px;
+		right: 70px;
+		top: 55px;
+		z-index: 0;
 
-    .back-text {
-        height: 140px;
-        right: 70px;
-        top: 55px;
-        z-index: 0;
+		@include option.sp {
+			height: 140px;
+			top: 10px;
+			right: 0;
+		}
+	}
 
-        @include option.sp {
-            height: 140px;
-            top: 10px;
-            right: 0;
-        }
-    }
+	.inner {
+		max-width: 1100px;
+		margin: 0 auto;
 
-    .inner {
-        max-width: 1100px;
-        margin: 0 auto;
+		@include option.pad {
+			max-width: 90%;
+		}
 
-        @include option.pad {
-            max-width: 90%;
-        }
+		@include option.sp {
+			max-width: 94%;
+		}
 
-        @include option.sp {
-            max-width: 94%;
-        }
+		h3 {
+			background-color: #f6f7f7;
+			padding: 15px;
+			box-sizing: border-box;
+			display: flex;
+			align-items: center;
+			gap: 5px;
 
-        .box {
-            width: calc(33.3% - 20px);
-            margin-right: 30px;
+			&::before {
+				content: '';
+				display: inline-block;
+				width: 4px;
+				height: 100%;
+				background-color: #f37043;
+			}
+		}
 
-            @include option.sp {
-                width: 100%;
-                margin-right: 0px;
-                margin-bottom: 30px;
-            }
+		.list {
+			.box {
+				@include option.box(30, 3);
 
-            &:last-child {
-                margin-right: 0;
-            }
+				@include option.sp {
+					@include option.box(0, 1);
+					margin-bottom: 30px;
+				}
 
-            .image {
-                width: 100%;
-                height: 290px;
+				.image {
+					width: 100%;
+					height: 290px;
 
-                img {
-                    object-fit: cover;
-                }
-            }
+					img {
+						object-fit: cover;
+					}
+				}
 
-            .content {
-                padding: 30px 50px;
-                box-sizing: border-box;
-                border-radius: 0 0px 5px 5px;
-                background-color: #fff;
-                height: calc(100% - 290px);
+				.content {
+					padding: 30px 50px;
+					box-sizing: border-box;
+					border-radius: 0 0px 5px 5px;
+					background-color: #fff;
+					height: calc(100% - 290px);
 
-                @include option.pad {
-                    padding: 20px 30px;
-                }
+					@include option.pad {
+						padding: 20px 30px;
+					}
 
-                .point {
-                    height: 16px;
-                    margin-bottom: 10px;
+					.head {
+						font-weight: bold;
+						padding-bottom: 20px;
+						border-bottom: 1px solid #9f9f9f;
+						margin-bottom: 20px;
 
-                    img {
-                        width: auto;
-                    }
-                }
+						span {
+							font-size: 13px;
+							font-weight: bold;
+						}
 
-                .head {
-                    font-weight: bold;
-                    padding-bottom: 10px;
-                    border-bottom: 1px solid #9F9F9F;
-                    margin-bottom: 20px;
-                    height: 55px;
+						@include option.pad {
+							margin-bottom: 10px;
+							height: auto;
+						}
+					}
 
-                    @include option.pad {
-                        margin-bottom: 10px;
-                        height: auto;
-                    }
-                }
+					.text {
+						@include option.line-height(30px);
+					}
+				}
+			}
 
-                .text {
-                    @include option.line-height(30px);
-                }
-            }
-        }
-    }
+			&:last-child {
+				.box {
+					@include option.box(20, 4);
+				}
+			}
+		}
+	}
 }
 
 .sns-cont {
-    width: calc(100% - 100px);
-    margin-bottom: 100px;
+	width: calc(100% - 100px);
+	margin-bottom: 100px;
 
-    @include option.tab {
-        width: 100%;
-        padding: 0 3%;
-        box-sizing: border-box;
-        margin-bottom: 60px;
-    }
+	@include option.tab {
+		width: 100%;
+		padding: 0 3%;
+		box-sizing: border-box;
+		margin-bottom: 60px;
+	}
 
-    @include option.sp {
-        margin-bottom: 60px;
-    }
+	@include option.sp {
+		margin-bottom: 60px;
+	}
 
-    .left {
-        width: 45%;
-        height: 470px;
+	.left {
+		width: 45%;
+		height: 470px;
 
-        @include option.tab {
-            width: 100%;
-            height: auto;
-            margin-bottom: 30px;
-        }
+		@include option.tab {
+			width: 100%;
+			height: auto;
+			margin-bottom: 30px;
+		}
 
+		img {
+			object-fit: cover;
+		}
 
-        img {
-            object-fit: cover;
-        }
+		.logo {
+			width: 70%;
+			z-index: -1;
+			bottom: -110px;
 
-        .logo {
-            width: 70%;
-            z-index: -1;
-            bottom: -110px;
+			@include option.sp {
+				display: none;
+			}
+		}
+	}
 
-            @include option.sp {
-                display: none;
-            }
-        }
-    }
+	.right {
+		width: calc(55% - 60px);
+		margin-left: 60px;
+		padding-top: 100px;
 
-    .right {
-        width: calc(55% - 60px);
-        margin-left: 60px;
-        padding-top: 100px;
+		@include option.tab {
+			width: 100%;
+			margin-left: 0;
+			padding-top: 0px;
+		}
 
-        @include option.tab {
-            width: 100%;
-            margin-left: 0;
-            padding-top: 0px;
-        }
+		.sns-list {
+			top: 50%;
+			right: 0;
+			transform: translateY(-50%);
 
-        .sns-list {
-            top: 50%;
-            right: 0;
-            transform: translateY(-50%);
+			.sns {
+				width: 50px;
+				height: 50px;
+				margin-right: 10px;
 
-            .sns {
-                width: 50px;
-                height: 50px;
-                margin-right: 10px;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
 
-                &:last-child {
-                    margin-right: 0;
-                }
-            }
-        }
+		.text {
+			@include option.line-height(30px);
 
-        .text {
-            @include option.line-height(30px);
+			span {
+				display: block;
+				font-size: 28px;
+				margin-bottom: 10px;
+				color: #60c460;
+				font-weight: 500;
+			}
 
-            span {
-                display: block;
-                font-size: 28px;
-                margin-bottom: 10px;
-                color: #60C460;
-                font-weight: 500;
-            }
+			.image-list {
+				margin-top: 30px;
 
-            .image-list {
-                margin-top: 30px;
+				.image {
+					width: calc(25% - 10px);
+					margin-right: 10px;
+					margin-bottom: 10px;
+					position: relative;
+					background-color: #f3f3f3;
 
-                .image {
-                    width: calc(25% - 10px);
-                    margin-right: 10px;
-                    margin-bottom: 10px;
-                    position: relative;
-                    background-color: #F3F3F3;
+					img {
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						top: 0;
+						object-fit: cover;
+					}
 
-                    img {
-                        position: absolute;
-                        width: 100%;
-                        height: 100%;
-                        top: 0;
-                        object-fit: cover;
-                    }
+					&::before {
+						content: '';
+						display: block;
+						padding-top: 100%;
+					}
 
-                    &::before {
-                        content: "";
-                        display: block;
-                        padding-top: 100%;
-                    }
+					&:nth-child(4n) {
+						margin-right: 0;
+					}
 
-                    &:nth-child(4n) {
-                        margin-right: 0;
-                    }
-
-                    &:nth-last-child(-n+4) {
-                        margin-bottom: 0;
-                    }
-                }
-            }
-        }
-    }
+					&:nth-last-child(-n + 4) {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
 }
 
 .support-cont {
-    margin-bottom: 150px;
+	margin-bottom: 150px;
 
-    @include option.sp {
-        margin-bottom: 60px;
-    }
+	@include option.sp {
+		margin-bottom: 60px;
+	}
 
-    h2 {
-        max-width: 1100px;
+	h2 {
+		max-width: 1100px;
 
-        @include option.pad {
-            max-width: 90%;
-        }
+		@include option.pad {
+			max-width: 90%;
+		}
 
-        @include option.sp {
-            max-width: 94%;
-        }
-    }
+		@include option.sp {
+			max-width: 94%;
+		}
+	}
 
-    .inner {
-        max-width: 1100px;
-        margin: 0 auto;
+	.inner {
+		max-width: 1100px;
+		margin: 0 auto;
 
-        @include option.pad {
-            max-width: 90%;
-        }
+		@include option.pad {
+			max-width: 90%;
+		}
 
-        @include option.sp {
-            max-width: 94%;
-        }
-    }
+		@include option.sp {
+			max-width: 94%;
+		}
+	}
 
-    .btn {
-        width: 100%;
+	.btn {
+		width: 100%;
 
-        @include option.pad {
-            max-width: 90%;
-        }
+		@include option.pad {
+			max-width: 90%;
+		}
 
-        @include option.sp {
-            max-width: 94%;
-        }
+		@include option.sp {
+			max-width: 94%;
+		}
 
-        a {
-            text-align: center;
-        }
-    }
+		a {
+			text-align: center;
+		}
+	}
 }
 
 .logo-cont {
-    margin-bottom: 100px;
+	margin-bottom: 100px;
 
-    @include option.sp {
-        margin-bottom: 60px;
-    }
+	@include option.sp {
+		margin-bottom: 60px;
+	}
 
-    h2 {
-        max-width: 1100px;
-        align-items: center;
+	h2 {
+		max-width: 1100px;
+		align-items: center;
 
-        @include option.pad {
-            max-width: 90%;
-            margin-bottom: 40px;
-        }
+		@include option.pad {
+			max-width: 90%;
+			margin-bottom: 40px;
+		}
 
-        @include option.sp {
-            max-width: 94%;
-            flex-direction: column-reverse;
-        }
+		@include option.sp {
+			max-width: 94%;
+			flex-direction: column-reverse;
+		}
 
-        .image{
-            width: 150px;
-            margin-right: 30px;
+		.image {
+			width: 150px;
+			margin-right: 30px;
 
-            @include option.sp {
-                width: 80%;
-                margin: 0 auto;
-            }
-        }
+			@include option.sp {
+				width: 80%;
+				margin: 0 auto;
+			}
+		}
 
-        .conts {
-            width: calc(100% - 180px);
-            font-size: 28px;
-            margin: 0 auto;
-            margin-bottom: 40px;
+		.conts {
+			width: calc(100% - 180px);
+			font-size: 28px;
+			margin: 0 auto;
+			margin-bottom: 40px;
 
-            @include option.pad {
-                margin-bottom: 20px;
-            }
+			@include option.pad {
+				margin-bottom: 20px;
+			}
 
-            @include option.sp {
-                font-size: 22px;
-                width: 100%;
-            }
+			@include option.sp {
+				font-size: 22px;
+				width: 100%;
+			}
 
-            span {
-                height: 16px;
-                align-items: center;
-                margin-top: 30px;
+			span {
+				height: 16px;
+				align-items: center;
+				margin-top: 30px;
 
-                @include option.pad {
-                    margin-top: 10px;
-                }
+				@include option.pad {
+					margin-top: 10px;
+				}
 
-                &::before {
-                    content: '';
-                    display: inline-block;
-                    width: 50px;
-                    border-bottom: 1px solid #6BC643;
-                    margin-right: 5px;
-                }
+				&::before {
+					content: '';
+					display: inline-block;
+					width: 50px;
+					border-bottom: 1px solid #6bc643;
+					margin-right: 5px;
+				}
 
-                img {
-                    width: auto;
-                }
-            }
-        }
-    }
+				img {
+					width: auto;
+				}
+			}
+		}
+	}
 
-    .tri {
-        height: 270px;
-        top: -30px;
-        right: 0;
-        z-index: -1;
+	.tri {
+		height: 270px;
+		top: -30px;
+		right: 0;
+		z-index: -1;
 
-        img {
-            width: auto;
-        }
+		img {
+			width: auto;
+		}
 
-        @include option.pad {
-            height: 150px;
-        }
+		@include option.pad {
+			height: 150px;
+		}
 
-        @include option.sp {
-            height: 100px;
-        }
-    }
+		@include option.sp {
+			height: 100px;
+		}
+	}
 
-    .inner {
-        max-width: 1100px;
-        margin: 0 auto;
+	.inner {
+		max-width: 1100px;
+		margin: 0 auto;
 
-        @include option.pad {
-            max-width: 90%;
-        }
+		@include option.pad {
+			max-width: 90%;
+		}
 
-        @include option.sp {
-            max-width: 94%;
-        }
+		@include option.sp {
+			max-width: 94%;
+		}
 
-        .box {
-            flex-direction: row-reverse;
-            justify-content: right;
-            margin-bottom: 30px;
-            align-items: center;
+		.box {
+			flex-direction: row-reverse;
+			justify-content: right;
+			margin-bottom: 30px;
+			align-items: center;
 
-            .logo {
-                align-items: center;
+			.logo {
+				align-items: center;
 
-                img {
-                    width: 110px;
-                    height: 110px;
+				img {
+					width: 110px;
+					height: 110px;
 
-                    @include option.sp {
-                        width: 80px;
-                        height: 80px;
-                    }
-                }
+					@include option.sp {
+						width: 80px;
+						height: 80px;
+					}
+				}
 
-                &:before {
-                    content: '';
-                    display: inline-block;
-                    width: 50px;
-                    border-bottom: 1px solid #FF622C;
-                    margin-right: 20px;
+				&:before {
+					content: '';
+					display: inline-block;
+					width: 50px;
+					border-bottom: 1px solid #ff622c;
+					margin-right: 20px;
 
-                    @include option.sp {
-                        width: 20px;
-                        margin-right: 10px;
-                    }
-                }
-            }
+					@include option.sp {
+						width: 20px;
+						margin-right: 10px;
+					}
+				}
+			}
 
-            p {
-                width: calc(100% - 360px);
-                border: 1px solid #555555;
-                padding: 25px 40px;
-                box-sizing: border-box;
-                font-weight: 500;
+			p {
+				width: calc(100% - 360px);
+				border: 1px solid #555555;
+				padding: 25px 40px;
+				box-sizing: border-box;
+				font-weight: 500;
 
-                @include option.sp {
-                    width: calc(100% - 110px);
-                    padding: 20px 15px;
-                }
-            }
+				@include option.sp {
+					width: calc(100% - 110px);
+					padding: 20px 15px;
+				}
+			}
 
-            &:nth-child(2n) {
-                justify-content: left;
-                flex-direction: row;
+			&:nth-child(2n) {
+				justify-content: left;
+				flex-direction: row;
 
-                .logo {
-                    &::after {
-                        content: '';
-                        display: inline-block;
-                        width: 50px;
-                        border-bottom: 1px solid #6BC643;
-                        margin-left: 20px;
+				.logo {
+					&::after {
+						content: '';
+						display: inline-block;
+						width: 50px;
+						border-bottom: 1px solid #6bc643;
+						margin-left: 20px;
 
-                        @include option.sp {
-                            width: 20px;
-                            margin-left: 10px;
-                        }
-                    }
+						@include option.sp {
+							width: 20px;
+							margin-left: 10px;
+						}
+					}
 
-                    &::before {
-                        display: none;
-                    }
-                }
+					&::before {
+						display: none;
+					}
+				}
 
-                p {
-                    background-color: #F8F8F8;
+				p {
+					background-color: #f8f8f8;
 
-                    @include option.sp {
-                        margin-left: 0px;
-                    }
-                }
-            }
-        }
-    }
+					@include option.sp {
+						margin-left: 0px;
+					}
+				}
+			}
+		}
+	}
 }
 
 .banner-cont {
-    margin-bottom: 100px;
+	margin-bottom: 100px;
 
-    @include option.sp {
-        margin-bottom: 60px;
-    }
+	@include option.sp {
+		margin-bottom: 60px;
+	}
 
-    .box {
-        max-width: 1100px;
-        margin: 0 auto;
-        margin-bottom: 30px;
-        height: 340px;
+	.box {
+		max-width: 1100px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		height: 340px;
 
-        @include option.pad {
-            max-width: 90%;
-        }
+		@include option.pad {
+			max-width: 90%;
+		}
 
-        @include option.sp {
-            max-width: 94%;
-        }
+		@include option.sp {
+			max-width: 94%;
+		}
 
-        a {
-            height: 100%;
-        }
+		a {
+			height: 100%;
+		}
 
-        .logo {
-            height: 145px;
-            z-index: 1;
-            top: 0;
-            left: 0;
+		.logo {
+			height: 145px;
+			z-index: 1;
+			top: 0;
+			left: 0;
 
-            img {
-                width: auto;
-            }
+			img {
+				width: auto;
+			}
 
-            @include option.sp {
-                height: 90px;
-            }
-        }
+			@include option.sp {
+				height: 90px;
+			}
+		}
 
-        .image {
-            height: 100%;
+		.image {
+			height: 100%;
 
-            img {
-                object-fit: cover;
-                border-radius: 15px;
-            }
+			img {
+				object-fit: cover;
+				border-radius: 15px;
+			}
 
-            &:before {
-                content: '';
-                display: inline-block;
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: -moz-linear-gradient(left, rgba(12, 158, 180, 0.7) 0%, rgba(112, 187, 47, 0.7) 100%);
-                background: -webkit-linear-gradient(left, rgba(12, 158, 180, 0.7) 0%, rgba(112, 187, 47, 0.7) 100%);
-                background: linear-gradient(to right, rgba(12, 158, 180, 0.7) 0%, rgba(112, 187, 47, 0.7) 100%);
-                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b30c9eb4', endColorstr='#b370bb2f', GradientType=1);
-                border-radius: 15px;
-            }
-        }
+			&:before {
+				content: '';
+				display: inline-block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: -moz-linear-gradient(left, rgba(12, 158, 180, 0.7) 0%, rgba(112, 187, 47, 0.7) 100%);
+				background: -webkit-linear-gradient(left, rgba(12, 158, 180, 0.7) 0%, rgba(112, 187, 47, 0.7) 100%);
+				background: linear-gradient(to right, rgba(12, 158, 180, 0.7) 0%, rgba(112, 187, 47, 0.7) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b30c9eb4', endColorstr='#b370bb2f', GradientType=1);
+				border-radius: 15px;
+			}
+		}
 
-        &:nth-child(2n) {
-            margin-bottom: 0;
+		&:nth-child(2n) {
+			margin-bottom: 0;
 
-            .image {
-                &:before {
-                    background: none;
-                    background-color: rgba(71, 71, 71, 0.7);
-                }
-            }
+			.image {
+				&:before {
+					background: none;
+					background-color: rgba(71, 71, 71, 0.7);
+				}
+			}
+		}
 
-        }
+		.head {
+			width: 50%;
+			top: 40%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			border-bottom: 1px solid #fff;
+			padding-bottom: 20px;
 
-        .head {
-            width: 50%;
-            top: 40%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            border-bottom: 1px solid #fff;
-            padding-bottom: 20px;
+			@include option.sp {
+				width: 100%;
+				max-width: 90%;
+			}
 
-            @include option.sp {
-                width: 100%;
-                max-width: 90%;
-            }
+			@include option.sp {
+				max-width: 94%;
+			}
 
-            @include option.sp {
-                max-width: 94%;
-            }
+			&:after {
+				content: '';
+				display: inline-block;
+				width: 22px;
+				height: 18px;
+				background-image: url(/wp-content/uploads/2023/03/logo-arroww.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				position: absolute;
+				top: 50%;
+				right: 60px;
+				transform: translateY(-50%);
 
-            &:after {
-                content: '';
-                display: inline-block;
-                width: 22px;
-                height: 18px;
-                background-image: url(/wp-content/uploads/2023/03/logo-arroww.png);
-                background-size: contain;
-                background-repeat: no-repeat;
-                position: absolute;
-                top: 50%;
-                right: 60px;
-                transform: translateY(-50%);
+				@include option.tab {
+					right: 20px;
+				}
+			}
 
-                @include option.tab {
-                    right: 20px;
-                }
-            }
+			div {
+				font-size: 28px;
+				color: #fff;
+				font-weight: bold;
+				text-align: center;
 
-            div {
-                font-size: 28px;
-                color: #fff;
-                font-weight: bold;
-                text-align: center;
+				@include option.sp {
+					font-size: 22px;
+				}
 
-                @include option.sp {
-                    font-size: 22px;
-                }
+				span {
+					height: 12px;
+					display: block;
+					margin-top: 20px;
 
-                span {
-                    height: 12px;
-                    display: block;
-                    margin-top: 20px;
+					@include option.sp {
+						margin-top: 5px;
+					}
+				}
+			}
+		}
 
-                    @include option.sp {
-                        margin-top: 5px;
-                    }
-                }
-            }
-        }
+		.text {
+			width: 50%;
+			top: calc(60% + 15px);
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+			color: #fff;
 
-        .text {
-            width: 50%;
-            top: calc(60% + 15px);
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            color: #fff;
-
-            @include option.sp {
-                width: 100%;
-                max-width: 90%;
-                top: calc(60% + 40px);
-            }
-        }
-    }
+			@include option.sp {
+				width: 100%;
+				max-width: 90%;
+				top: calc(60% + 40px);
+			}
+		}
+	}
 }
 
 #about-cont,
 #feature-cont,
 #initiative-cont,
 #support-cont {
-    @include option.sp {
-        margin-top: -120px;
-        padding-top: 120px;
-    }
+	@include option.sp {
+		margin-top: -120px;
+		padding-top: 120px;
+	}
 }
 
 /* 正方形の要素を作成しその正方形内を動き続ける点をアニメーション付きで実装*/
-
-

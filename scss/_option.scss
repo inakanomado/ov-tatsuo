@@ -5,6 +5,14 @@ $letterspacing: 26; //文字間隔
 $lineheight: 28px; //文字の高さ
 $fontsize: 16px;
 
+@mixin box($mar, $cnt) {
+	width: calc((100% / #{$cnt}) - (#{$mar * ($cnt - 1)}px / #{$cnt}));
+	margin-right: $mar + px;
+
+	&:nth-child(#{$cnt}n) {
+		margin-right: 0;
+	}
+}
 
 @mixin line-height($psd-size, $font_size: 16px) {
 	line-height: $psd-size / $font_size;

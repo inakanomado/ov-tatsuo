@@ -529,7 +529,7 @@ h2 span img {
   margin-bottom: 0;
 }
 .initiative-cont .inner .list .box:nth-last-child(-n+3):not(:nth-last-child(-n+2)):nth-child(5n+3), .initiative-cont .inner .list .box:nth-last-child(-n+2):nth-child(5n+4), .initiative-cont .inner .list .box:nth-last-child(-n+2):nth-child(5n+5) {
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 @media (max-width: 600px) {
   .initiative-cont .inner .list .box {

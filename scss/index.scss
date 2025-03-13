@@ -535,7 +535,7 @@ h2 {
 				&:nth-last-child(-n + 3):not(:nth-last-child(-n + 2)):nth-child(5n + 3),
 				&:nth-last-child(-n + 2):nth-child(5n + 4),
 				&:nth-last-child(-n + 2):nth-child(5n + 5) {
-					margin-bottom: 0;
+					margin-bottom: 30px;
 				}
 
 				@include option.sp {

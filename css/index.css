@@ -486,6 +486,7 @@ h2 span img {
 @media (max-width: 600px) {
   .initiative-cont .inner {
     max-width: 94%;
+    padding: 20px 30px;
   }
 }
 .initiative-cont .inner h3 {
@@ -601,6 +602,15 @@ h2 span img {
 }
 .initiative-cont .inner .list:last-child .box:nth-child(4n) {
   margin-right: 0;
+}
+@media (max-width: 600px) {
+  .initiative-cont .inner .list:last-child .box {
+    width: calc(100% / 1 - 0px / 1);
+    margin-right: 0px;
+  }
+  .initiative-cont .inner .list:last-child .box:nth-child(1n) {
+    margin-right: 0;
+  }
 }
 .initiative-cont .inner .list:last-child .box .image {
   height: 150px;

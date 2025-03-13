@@ -521,6 +521,12 @@ h2 span img {
   width: calc(100% / 3 - 60px / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 .initiative-cont .inner .list .box:nth-child(3n) {
   margin-right: 0;
@@ -559,12 +565,28 @@ h2 span img {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.initiative-cont .inner .list .box .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 .initiative-cont .inner .list .box .content .head {
   font-weight: bold;
   padding-bottom: 20px;
   border-bottom: 1px solid #9f9f9f;
   margin-bottom: 20px;
   text-align: center;
+  min-height: 50px; /* 高さをある程度統一（適宜調整） */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .initiative-cont .inner .list .box .content .head span {
   font-size: 13px;

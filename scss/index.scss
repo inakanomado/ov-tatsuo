@@ -485,6 +485,9 @@ h2 {
 	.inner {
 		max-width: 1100px;
 		margin: 0 auto;
+		background-color: #fff;
+		padding: 40px 50px;
+		box-sizing: border-box;
 
 		@include option.pad {
 			max-width: 90%;

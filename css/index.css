@@ -522,14 +522,19 @@ h2 span img {
 .initiative-cont .inner .list .box:nth-child(3n) {
   margin-right: 0;
 }
-.initiative-cont .inner .list .box:nth-last-child(-n+3) {
-  margin-bottom: 0;
-}
 .initiative-cont .inner .list .box:nth-child(3n) {
   margin-bottom: 30px;
 }
 .initiative-cont .inner .list .box:last-child {
   margin-bottom: 0;
+}
+@media (max-width: 600px) {
+  .initiative-cont .inner .list .box {
+    margin-bottom: 0;
+  }
+  .initiative-cont .inner .list .box:nth-child(3n) {
+    margin-bottom: 0px;
+  }
 }
 .initiative-cont .inner .list .box .image {
   width: 100%;

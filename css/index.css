@@ -531,6 +531,9 @@ h2 span img {
 @media (max-width: 600px) {
   .initiative-cont .inner .list .box {
     margin-bottom: 0;
+    padding: 0 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .initiative-cont .inner .list .box:nth-child(3n) {
     margin-bottom: 0px;

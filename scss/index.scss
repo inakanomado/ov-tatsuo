@@ -530,6 +530,8 @@ h2 {
 
 				@include option.sp {
 					margin-bottom: 0;
+					padding: 0 5px;
+					box-sizing: border-box;
 
 					&:nth-child(3n) {
 						margin-bottom: 0px;

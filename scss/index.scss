@@ -496,7 +496,7 @@ h2 {
 			box-sizing: border-box;
 			display: flex;
 			align-items: center;
-			gap: 5px;
+			gap: 10px;
 			margin-bottom: 30px;
 			font-size: 18px;
 			font-weight: bold;
@@ -511,9 +511,9 @@ h2 {
 		}
 
 		.flow-inner {
-			.list {
-				margin-bottom: 40px;
+			margin-bottom: 40px;
 
+			.list {
 				&:last-child {
 					margin-bottom: 0;
 				}
@@ -526,13 +526,12 @@ h2 {
 						margin-bottom: 0;
 					}
 
-					&:nth-last-child(-n + 3):not(:nth-last-child(-n + 2)):nth-child(5n + 3),
-					&:nth-last-child(-n + 2):nth-child(5n + 4),
-					&:nth-last-child(-n + 2):nth-child(5n + 5) {
+					&:nth-child(3n) {
 						margin-bottom: 30px;
 					}
 
-					@include option.sp {
+					&:last-child {
+						margin-bottom: 0;
 					}
 
 					.image {

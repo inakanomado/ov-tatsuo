@@ -619,6 +619,7 @@ h2 {
 						.head {
 							text-align: left;
 							min-height: 50px; /* 高さをある程度統一（適宜調整） */
+							@include option.line-height(28px);
 						}
 					}
 				}

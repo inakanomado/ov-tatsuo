@@ -509,6 +509,11 @@ h2 span img {
 .initiative-cont .inner .flow-inner {
   margin-bottom: 40px;
 }
+@media (max-width: 600px) {
+  .initiative-cont .inner .flow-inner {
+    margin-bottom: 0;
+  }
+}
 .initiative-cont .inner .flow-inner .list:last-child {
   margin-bottom: 0;
 }

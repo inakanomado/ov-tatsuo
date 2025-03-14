@@ -369,19 +369,17 @@ h2 {
 		}
 
 		.btn {
+			margin-top: 20px;
 			a {
 				color: #60c460;
 				text-decoration: underline;
 				align-items: center;
+				justify-content: flex-end;
 
 				&:after {
 					content: '>';
 					color: #60c460;
 					display: inline-block;
-					position: absolute;
-					top: 50%;
-					right: -10px;
-					transform: translateY(-50%);
 				}
 			}
 		}
@@ -409,15 +407,9 @@ h2 {
 			}
 
 			.btn {
-				width: 130px;
-				margin: 40px 0 0 auto;
 				a {
 					padding-right: 20px;
 					box-sizing: border-box;
-
-					&:after {
-						right: 0;
-					}
 				}
 			}
 		}
@@ -541,21 +533,6 @@ h2 {
 					}
 
 					@include option.sp {
-						@include option.box(0, 1);
-
-						&:nth-last-child(-n + 3) {
-							margin-bottom: 30px;
-						}
-
-						&:nth-last-child(-n + 3):not(:nth-last-child(-n + 2)):nth-child(5n + 3),
-						&:nth-last-child(-n + 2):nth-child(5n + 4),
-						&:nth-last-child(-n + 2):nth-child(5n + 5) {
-							margin-bottom: 30px;
-						}
-
-						&:last-child {
-							margin-bottom: 0;
-						}
 					}
 
 					.image {
@@ -614,10 +591,6 @@ h2 {
 						display: flex;
 						flex-wrap: wrap;
 						align-items: stretch;
-
-						@include option.sp {
-							@include option.box(0, 1);
-						}
 
 						.image {
 							width: 100%;

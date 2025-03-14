@@ -624,6 +624,7 @@ h2 span img {
 .initiative-cont .inner .list:last-child .box .content .head {
   text-align: left;
   min-height: 50px; /* 高さをある程度統一（適宜調整） */
+  line-height: 1.75;
 }
 
 .sns-cont {

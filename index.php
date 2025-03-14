@@ -204,52 +204,50 @@
 			<div class="inner relative">
 				<h3 class="relative">水田除草機を使った水稲有機栽培実証</h3>
 
-				<div class="flow-inner">
-					<div class="list flex">
-						<div class="box">
-							<div class="image">
-								<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+				<div class="list flex">
+					<div class="box">
+						<div class="image">
+							<img src="/wp-content/uploads/2025/03/img01.jpg">
+						</div>
+						<div class="content">
+							<div class="head">
+								土谷 学さん
+								<span>（殿町）</span>
 							</div>
-							<div class="content">
-								<div class="head">
-									土谷 学さん
-									<span>（殿町）</span>
-								</div>
-								<div class="text">
-									「あめんぼ号」を使った除草の実証、自動で稲の草丈や茎数、葉色を測定するスマート機器を使った有機栽培の生育調査に取り組みました。<br>
-									実証の2年間で、機械操作が上達し、安定して収量をあげることができました。
-								</div>
+							<div class="text">
+								「あめんぼ号」を使った除草の実証、自動で稲の草丈や茎数、葉色を測定するスマート機器を使った有機栽培の生育調査に取り組みました。<br>
+								実証の2年間で、機械操作が上達し、安定して収量をあげることができました。
 							</div>
 						</div>
-						<div class="box">
-							<div class="image">
-								<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+					</div>
+					<div class="box">
+						<div class="image">
+							<img src="/wp-content/uploads/2025/03/img02.jpg">
+						</div>
+						<div class="content">
+							<div class="head">
+								代表 田渕 真也さん
+								<span>株式会社丹波たぶち農場（口阪本）</span>
 							</div>
-							<div class="content">
-								<div class="head">
-									代表 田渕 真也さん
-									<span>株式会社丹波たぶち農場（口阪本）</span>
-								</div>
-								<div class="text">
-									ガスが発生しやすい粘土質の土壌で、アイガモロボを使った実証に取り組みました。<br>
-									実証2年目は、苗の成長に合わせてアイガモロボを動かす時間や頻度を調整し、収量を増加させることができました。
+							<div class="text">
+								ガスが発生しやすい粘土質の土壌で、アイガモロボを使った実証に取り組みました。<br>
+								実証2年目は、苗の成長に合わせてアイガモロボを動かす時間や頻度を調整し、収量を増加させることができました。
 
-								</div>
 							</div>
 						</div>
-						<div class="box">
-							<div class="image">
-								<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+					</div>
+					<div class="box">
+						<div class="image">
+							<img src="/wp-content/uploads/2025/03/img03.jpg">
+						</div>
+						<div class="content">
+							<div class="head">
+								代表 原 智宏さん
+								<span>株式会社アグリヘルシーファーム（味間奥）</span>
 							</div>
-							<div class="content">
-								<div class="head">
-									代表 原 智宏さん
-									<span>株式会社アグリヘルシーファーム（味間奥）</span>
-								</div>
-								<div class="text">
-									「WEEDMAN（ウィードマン）」を使った除草実証に取り組みました。<br>
-									実証した2年間では、安定した収量がとれ、今後さらに有機栽培面積の拡大と有機JAS取得を目指します。
-								</div>
+							<div class="text">
+								「WEEDMAN（ウィードマン）」を使った除草実証に取り組みました。<br>
+								実証した2年間では、安定した収量がとれ、今後さらに有機栽培面積の拡大と有機JAS取得を目指します。
 							</div>
 						</div>
 					</div>
@@ -257,82 +255,92 @@
 
 				<h3 class="relative">黒大豆有機栽培実証</h3>
 
-				<div class="flow-inner">
-					<div class="list flex">
-						<div class="box">
-							<div class="image">
-								<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+				<div class="list flex">
+					<div class="box">
+						<div class="image">
+							<img src="/wp-content/uploads/2025/03/img04.jpg">
+						</div>
+						<div class="content">
+							<div class="head relative">
+								澤村 寛文さん
+								<span>丹波篠山伝田農産（後川上）</span>
+
+								<div class="logo absolute">
+									<img src="/wp-content/uploads/2025/03/logo01.png">
+								</div>
 							</div>
-							<div class="content">
-								<div class="head">
-									澤村 寛文さん
-									<span>丹波篠山伝田農産（後川上）</span>
-								</div>
-								<div class="text">
-									黒色、白色のビニールマルチや、緑肥を使った栽培に取り組みました。<br>
-									新たにアイガモ農法によるお米の有機栽培にも挑戦しています。
-								</div>
+							<div class="text">
+								黒色、白色のビニールマルチや、緑肥を使った栽培に取り組みました。<br>
+								新たにアイガモ農法によるお米の有機栽培にも挑戦しています。
 							</div>
 						</div>
+					</div>
 
-						<div class="box">
-							<div class="image">
-								<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+					<div class="box">
+						<div class="image">
+							<img src="/wp-content/uploads/2025/03/img05.jpg">
+						</div>
+						<div class="content">
+							<div class="head relative">
+								小前 芳彦さん
+								<span>（味間南）</span>
+
+								<div class="logo absolute">
+									<img src="/wp-content/uploads/2025/03/logo01.png">
+								</div>
 							</div>
-							<div class="content">
-								<div class="head">
-									小前 芳彦さん
-									<span>（味間南）</span>
-								</div>
-								<div class="text">
-									篠山自然派代表。有機農業歴は50年以上、有機JASの検査員も務めています。<br>
-									土づくりと水管理に力を入れています。地域の多様な農業者との協調を大切しています。
-								</div>
+							<div class="text">
+								篠山自然派代表。有機農業歴は50年以上、有機JASの検査員も務めています。<br>
+								土づくりと水管理に力を入れています。地域の多様な農業者との協調を大切しています。
 							</div>
 						</div>
+					</div>
 
-						<div class="box">
-							<div class="image">
-								<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+					<div class="box">
+						<div class="image">
+							<img src="/wp-content/uploads/2025/03/img06.jpg">
+						</div>
+						<div class="content">
+							<div class="head">
+								代表 湊 友加さん
+								<span>農事組合法人なちゅらるはーもにー（垣屋）</span>
 							</div>
-							<div class="content">
-								<div class="head">
-									代表 湊 友加さん
-									<span>農事組合法人なちゅらるはーもにー（垣屋）</span>
-								</div>
-								<div class="text">
-									市のオーガニックビレッジ宣言を機に、黒大豆の有機栽培に挑戦。市内有機農業者の栽培指導を受け、慣行栽培のほ場を、有機栽培のほ場へ転換する実証に取り組みました。実証2年目は、カメムシ被害を抑え、一定の収量が得られました。
-								</div>
+							<div class="text">
+								市のオーガニックビレッジ宣言を機に、黒大豆の有機栽培に挑戦。市内有機農業者の栽培指導を受け、慣行栽培のほ場を、有機栽培のほ場へ転換する実証に取り組みました。実証2年目は、カメムシ被害を抑え、一定の収量が得られました。
 							</div>
 						</div>
+					</div>
 
-						<div class="box">
-							<div class="image">
-								<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+					<div class="box">
+						<div class="image">
+							<img src="/wp-content/uploads/2025/03/img07.jpg">
+						</div>
+						<div class="content">
+							<div class="head relative">
+								中末 智己さん
+								<span>中末農園（大山上）</span>
+
+								<div class="logo absolute">
+									<img src="/wp-content/uploads/2025/03/logo01.png">
+								</div>
 							</div>
-							<div class="content">
-								<div class="head">
-									中末 智己さん
-									<span>中末農園（大山上）</span>
-								</div>
-								<div class="text">
-									有機農業歴は20年以上。ミネラル、堆肥、緑肥を使った栽培を実践。新たに有機農業に取り組む農業者へのアドバイスや、土づくりの勉強会を開催するなど、有機農業者を増やす取組みに力を入れています。
-								</div>
+							<div class="text">
+								有機農業歴は20年以上。ミネラル、堆肥、緑肥を使った栽培を実践。新たに有機農業に取り組む農業者へのアドバイスや、土づくりの勉強会を開催するなど、有機農業者を増やす取組みに力を入れています。
 							</div>
 						</div>
+					</div>
 
-						<div class="box">
-							<div class="image">
-								<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+					<div class="box">
+						<div class="image">
+							<img src="/wp-content/uploads/2025/03/img08.jpg">
+						</div>
+						<div class="content">
+							<div class="head">
+								吉良 佳晃さん
+								<span>丹波篠山　良農園（不来坂）</span>
 							</div>
-							<div class="content">
-								<div class="head">
-									吉良 佳晃さん
-									<span>丹波篠山　良農園（不来坂）</span>
-								</div>
-								<div class="text">
-									緑肥を使った栽培や、有機肥料の効果比較などを行いました。実証1年目で一定の収量が得られました。得られた情報や栽培事例を紹介し、有機農業者の仲間づくりを進めます。
-								</div>
+							<div class="text">
+								緑肥を使った栽培や、有機肥料の効果比較などを行いました。実証1年目で一定の収量が得られました。得られた情報や栽培事例を紹介し、有機農業者の仲間づくりを進めます。
 							</div>
 						</div>
 					</div>
@@ -340,65 +348,64 @@
 
 				<h3 class="relative">有機農業・有機農産物の普及啓発</h3>
 
-				<div class="flow-inner">
-					<div class="list flex">
-						<div class="box">
-							<div class="image">
-								<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
-							</div>
-							<div class="content">
-								<div class="head">
-									学校給食への有機野菜の提供、食育授業など
-								</div>
-								<div class="text">
-									学校給食に、有機野菜も使用しています。市内小学校では、有機農業者による食育授業を実施しています。
-								</div>
-							</div>
+				<div class="list flex">
+					<div class="box">
+						<div class="image">
+							<img src="/wp-content/uploads/2025/03/img09.jpg">
 						</div>
-
-						<div class="box">
-							<div class="image">
-								<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+						<div class="content">
+							<div class="head">
+								学校給食への有機野菜の提供、食育授業など
 							</div>
-							<div class="content">
-								<div class="head">
-									勉強会・座談会の開催
-								</div>
-								<div class="text">
-									有機農法に関する勉強会を開催しています。<br>
-									また、有機農業や有機農産物に興味がある方を対象に、市内の有機農業者とお話ができる座談会も開催しています。
-								</div>
-							</div>
-						</div>
-
-						<div class="box">
-							<div class="image">
-								<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
-							</div>
-							<div class="content">
-								<div class="head">
-									オーガニックテーブルマーケット
-								</div>
-								<div class="text">
-									丹波篠山市飲食業組合が、市内で生産された有機農産物を使った、お弁当やスイーツの販売、お料理ワークショップなど気軽に楽しめるイベントを開催しました（2024年11月30日）
-								</div>
-							</div>
-						</div>
-
-						<div class="box">
-							<div class="image">
-								<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
-							</div>
-							<div class="content">
-								<div class="head">
-									マルシェや映画上映会の開催
-								</div>
-								<div class="text">
-									篠山自然派が市内でマルシェや直売会を開催しています。
-								</div>
+							<div class="text">
+								学校給食に、有機野菜も使用しています。市内小学校では、有機農業者による食育授業を実施しています。
 							</div>
 						</div>
 					</div>
+
+					<div class="box">
+						<div class="image">
+							<img src="/wp-content/uploads/2025/03/img10.jpg">
+						</div>
+						<div class="content">
+							<div class="head">
+								勉強会・座談会の開催
+							</div>
+							<div class="text">
+								有機農法に関する勉強会を開催しています。<br>
+								また、有機農業や有機農産物に興味がある方を対象に、市内の有機農業者とお話ができる座談会も開催しています。
+							</div>
+						</div>
+					</div>
+
+					<div class="box">
+						<div class="image">
+							<img src="/wp-content/uploads/2025/03/img11.jpg">
+						</div>
+						<div class="content">
+							<div class="head">
+								オーガニックテーブルマーケット
+							</div>
+							<div class="text">
+								丹波篠山市飲食業組合が、市内で生産された有機農産物を使った、お弁当やスイーツの販売、お料理ワークショップなど気軽に楽しめるイベントを開催しました（2024年11月30日）
+							</div>
+						</div>
+					</div>
+
+					<div class="box">
+						<div class="image">
+							<img src="/wp-content/uploads/2025/03/img12.jpg">
+						</div>
+						<div class="content">
+							<div class="head">
+								マルシェや映画上映会の開催
+							</div>
+							<div class="text">
+								篠山自然派が市内でマルシェや直売会を開催しています。
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>

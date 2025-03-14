@@ -601,6 +601,7 @@ h2 {
 				.box {
 					@include option.box(20, 4);
 					display: flex;
+					flex-wrap: wrap;
 					align-items: stretch;
 
 					@include option.sp {
@@ -608,6 +609,7 @@ h2 {
 					}
 
 					.image {
+						width: 100%;
 						height: 150px;
 					}
 
@@ -617,8 +619,6 @@ h2 {
 						.head {
 							text-align: left;
 							min-height: 50px; /* 高さをある程度統一（適宜調整） */
-							display: flex;
-							align-items: center;
 						}
 					}
 				}

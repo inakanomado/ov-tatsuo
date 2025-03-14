@@ -1,5 +1,4 @@
 </div>
-ebifbeuifbiuefeuf
 <footer class="footer">
 	<div class="footer-menu flex">
 		<div class="logo"><img src="/wp-content/uploads/2023/04/logo.jpg"></div>

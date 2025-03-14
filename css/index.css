@@ -626,6 +626,14 @@ h2 span img {
   min-height: 50px; /* 高さをある程度統一（適宜調整） */
   line-height: 1.75;
 }
+@media (max-width: 600px) {
+  .initiative-cont .inner .flow-inner {
+    overflow-x: scroll;
+  }
+  .initiative-cont .inner .flow-inner .list {
+    width: 800px;
+  }
+}
 
 .sns-cont {
   width: calc(100% - 100px);

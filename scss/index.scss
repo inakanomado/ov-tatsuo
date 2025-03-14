@@ -625,6 +625,16 @@ h2 {
 				}
 			}
 		}
+
+		.flow-inner {
+			@include option.sp {
+				overflow-x: scroll;
+
+				.list {
+					width: 800px;
+				}
+			}
+		}
 	}
 }
 

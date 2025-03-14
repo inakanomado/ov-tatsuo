@@ -44,7 +44,9 @@ jQuery(function ($) {
 						slidesToShow: 1, // 1枚表示
 						slidesToScroll: 1,
 						infinite: true,
-						dots: true,
+						dots: false,
+						centerMode: true, // 中央寄せ
+						centerPadding: '20px', // 両端に次のスライドを見せる
 					})
 				}
 			} else {

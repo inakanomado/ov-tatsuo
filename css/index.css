@@ -549,9 +549,6 @@ h2 span img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
 }
 .initiative-cont .inner .list .box .content .head {
   font-weight: bold;
@@ -609,7 +606,7 @@ h2 span img {
 .initiative-cont .inner .list:last-child .box .content .head {
   text-align: left;
   min-height: 50px; /* 高さをある程度統一（適宜調整） */
-  line-height: 1.75;
+  line-height: 1.5;
 }
 
 .sns-cont {

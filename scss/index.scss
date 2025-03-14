@@ -559,8 +559,12 @@ h2 {
 
 						span {
 							font-size: 13px;
-							font-weight: bold;
+							font-weight: normal;
 							display: block;
+
+							@include option.sp {
+								font-size: 10px;
+							}
 						}
 
 						@include option.pad {

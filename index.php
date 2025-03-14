@@ -198,7 +198,7 @@
 				</picture>
 			</div>
 			<h2 class="relative">
-				オーガニックビレッジ取り組み
+				オーガニックビレッジ事業の取り組み
 				<span class="flex"><img src="/wp-content/uploads/2023/03/en-09_1.png"></span>
 			</h2>
 			<div class="inner relative">

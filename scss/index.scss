@@ -513,6 +513,10 @@ h2 {
 		.flow-inner {
 			margin-bottom: 40px;
 
+			@include option.sp {
+				margin-bottom: 0;
+			}
+
 			.list {
 				&:last-child {
 					margin-bottom: 0;

@@ -552,6 +552,9 @@ h2 span img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 .initiative-cont .inner .flow-inner .list .box .content .head {
   font-weight: bold;

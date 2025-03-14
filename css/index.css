@@ -562,8 +562,13 @@ h2 span img {
 }
 .initiative-cont .inner .list .box .content .head span {
   font-size: 13px;
-  font-weight: bold;
+  font-weight: normal;
   display: block;
+}
+@media (max-width: 600px) {
+  .initiative-cont .inner .list .box .content .head span {
+    font-size: 10px;
+  }
 }
 @media (max-width: 1100px) {
   .initiative-cont .inner .list .box .content .head {

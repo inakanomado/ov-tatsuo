@@ -499,6 +499,12 @@ h2 span img {
   font-size: 18px;
   font-weight: bold;
 }
+@media (max-width: 600px) {
+  .initiative-cont .inner h3 {
+    padding: 12px;
+    font-size: 12px;
+  }
+}
 .initiative-cont .inner h3::before {
   content: "";
   display: inline-block;

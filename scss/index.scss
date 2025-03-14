@@ -501,6 +501,11 @@ h2 {
 			font-size: 18px;
 			font-weight: bold;
 
+			@include option.sp {
+				padding: 12px;
+				font-size: 12px;
+			}
+
 			&::before {
 				content: '';
 				display: inline-block;

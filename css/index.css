@@ -571,6 +571,16 @@ h2 span img {
     height: auto;
   }
 }
+.initiative-cont .inner .list .box .content .head .logo {
+  height: 25px;
+  top: 0;
+  right: 0;
+}
+.initiative-cont .inner .list .box .content .head .logo img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 .initiative-cont .inner .list .box .content .text {
   line-height: 1.875;
 }

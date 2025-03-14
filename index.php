@@ -207,7 +207,7 @@
 				<div class="list flex">
 					<div class="box">
 						<div class="image">
-							<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+							<img src="/wp-content/uploads/2025/03/img01.jpg">
 						</div>
 						<div class="content">
 							<div class="head">
@@ -222,7 +222,7 @@
 					</div>
 					<div class="box">
 						<div class="image">
-							<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+							<img src="/wp-content/uploads/2025/03/img02.jpg">
 						</div>
 						<div class="content">
 							<div class="head">
@@ -238,7 +238,7 @@
 					</div>
 					<div class="box">
 						<div class="image">
-							<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+							<img src="/wp-content/uploads/2025/03/img03.jpg">
 						</div>
 						<div class="content">
 							<div class="head">
@@ -258,12 +258,16 @@
 				<div class="list flex">
 					<div class="box">
 						<div class="image">
-							<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+							<img src="/wp-content/uploads/2025/03/img04.jpg">
 						</div>
 						<div class="content">
-							<div class="head">
+							<div class="head relative">
 								澤村 寛文さん
 								<span>丹波篠山伝田農産（後川上）</span>
+
+								<div class="logo absolute">
+									<img src="/wp-content/uploads/2025/03/logo01.png">
+								</div>
 							</div>
 							<div class="text">
 								黒色、白色のビニールマルチや、緑肥を使った栽培に取り組みました。<br>
@@ -274,12 +278,16 @@
 
 					<div class="box">
 						<div class="image">
-							<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+							<img src="/wp-content/uploads/2025/03/img05.jpg">
 						</div>
 						<div class="content">
-							<div class="head">
+							<div class="head relative">
 								小前 芳彦さん
 								<span>（味間南）</span>
+
+								<div class="logo absolute">
+									<img src="/wp-content/uploads/2025/03/logo01.png">
+								</div>
 							</div>
 							<div class="text">
 								篠山自然派代表。有機農業歴は50年以上、有機JASの検査員も務めています。<br>
@@ -290,7 +298,7 @@
 
 					<div class="box">
 						<div class="image">
-							<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+							<img src="/wp-content/uploads/2025/03/img06.jpg">
 						</div>
 						<div class="content">
 							<div class="head">
@@ -305,12 +313,16 @@
 
 					<div class="box">
 						<div class="image">
-							<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+							<img src="/wp-content/uploads/2025/03/img07.jpg">
 						</div>
 						<div class="content">
-							<div class="head">
+							<div class="head relative">
 								中末 智己さん
 								<span>中末農園（大山上）</span>
+
+								<div class="logo absolute">
+									<img src="/wp-content/uploads/2025/03/logo01.png">
+								</div>
 							</div>
 							<div class="text">
 								有機農業歴は20年以上。ミネラル、堆肥、緑肥を使った栽培を実践。新たに有機農業に取り組む農業者へのアドバイスや、土づくりの勉強会を開催するなど、有機農業者を増やす取組みに力を入れています。
@@ -320,7 +332,7 @@
 
 					<div class="box">
 						<div class="image">
-							<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+							<img src="/wp-content/uploads/2025/03/img08.jpg">
 						</div>
 						<div class="content">
 							<div class="head">
@@ -339,7 +351,7 @@
 				<div class="list flex">
 					<div class="box">
 						<div class="image">
-							<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+							<img src="/wp-content/uploads/2025/03/img09.jpg">
 						</div>
 						<div class="content">
 							<div class="head">
@@ -353,7 +365,7 @@
 
 					<div class="box">
 						<div class="image">
-							<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+							<img src="/wp-content/uploads/2025/03/img10.jpg">
 						</div>
 						<div class="content">
 							<div class="head">
@@ -368,7 +380,7 @@
 
 					<div class="box">
 						<div class="image">
-							<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+							<img src="/wp-content/uploads/2025/03/img11.jpg">
 						</div>
 						<div class="content">
 							<div class="head">
@@ -382,7 +394,7 @@
 
 					<div class="box">
 						<div class="image">
-							<img src="/wp-content/uploads/2023/03/reimg-05.jpg">
+							<img src="/wp-content/uploads/2025/03/img12.jpg">
 						</div>
 						<div class="content">
 							<div class="head">

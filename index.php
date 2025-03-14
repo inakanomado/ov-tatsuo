@@ -113,7 +113,7 @@
 		</div>
 		<div class="right">
 			<h2>
-				丹波篠山市オーガニックビレッジ宣言
+				丹波篠山市<br class="sp">オーガニックビレッジ宣言
 				<span class="flex"><img src="/wp-content/uploads/2023/04/image001.png"></span>
 			</h2>
 			<div class="text">
@@ -121,7 +121,7 @@
 				令和5年4月27日、以下の内容で丹波篠山市長がオーガニックビレッジ宣言を行いました。
 				<div class="btn">
 					<a class="flex relative" href="/wp-content/uploads/2023/04/オーガニックビレッジ宣言.pdf">
-						丹波篠山市オーガニックビレッジ宣言PDFはこちら
+						詳しくはこちら
 					</a>
 				</div>
 			</div>
@@ -198,7 +198,7 @@
 				</picture>
 			</div>
 			<h2 class="relative">
-				オーガニックビレッジ事業の取り組み
+				オーガニックビレッジ<br class="sp">事業の取り組み
 				<span class="flex"><img src="/wp-content/uploads/2023/03/en-09_1.png"></span>
 			</h2>
 			<div class="inner relative">

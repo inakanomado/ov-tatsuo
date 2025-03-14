@@ -2,17 +2,7 @@
 
 /* 共通 */
 $main-color: #333333; //全体色
-$font-family:
-	'Noto Sans JP',
-	Noto Sans CJK JP,
-	"Hiragino Kaku Gothic ProN",
-	"ヒラギノ角ゴ ProN W3",
-	YuGothic,
-	Yu Gothic,
-	"メイリオ",
-	Meiryo,
-	"MS ゴシック",
-	sans-serif; //フォント
+$font-family: 'Noto Sans JP', Noto Sans CJK JP, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', YuGothic, Yu Gothic, 'メイリオ', Meiryo, 'MS ゴシック', sans-serif; //フォント
 $letterspacing: 26; //文字間隔
 $lineheight: 28px; //文字の高さ
 $fontsize: 16px;
@@ -119,7 +109,6 @@ div {
 	}
 }
 
-
 /* header */
 .header-group {
 	z-index: 1;
@@ -151,11 +140,9 @@ div {
 				}
 			}
 		}
-
 	}
 
 	.toggle_btn {
-
 		@include option.pad {
 			display: none;
 		}
@@ -173,7 +160,7 @@ div {
 			a {
 				height: 100%;
 
-				img{
+				img {
 					width: auto;
 				}
 			}
@@ -212,7 +199,7 @@ div {
 							left: 50%;
 							top: 45%;
 						}
-			
+
 						&:nth-child(2) {
 							left: 50%;
 							top: 55%;
@@ -220,16 +207,16 @@ div {
 					}
 				}
 
-				&.open{
+				&.open {
 					.toggle_line {
 						span {
 							&:nth-child(1) {
-								top:50%;
+								top: 50%;
 								transform: translate(-50%, -50%) rotate(315deg);
 							}
-				
+
 							&:nth-child(2) {
-								top:50%;
+								top: 50%;
 								transform: translate(-50%, -50%) rotate(45deg);
 							}
 						}
@@ -249,7 +236,7 @@ div {
 					a {
 						height: 80%;
 
-						img{
+						img {
 							width: auto;
 						}
 					}
@@ -264,14 +251,14 @@ nav {
 	display: block;
 	position: fixed;
 	top: 0;
-	right: -300px;
+	right: -100%;
 	bottom: 0;
 	width: 360px;
 	background-color: rgba(255, 255, 255, 0.85);
 	overflow-x: hidden;
 	overflow-y: auto;
 	-webkit-overflow-scrolling: touch;
-	transition: all .5s;
+	transition: all 0.5s;
 	z-index: 6;
 	opacity: 0;
 
@@ -292,14 +279,14 @@ nav {
 				position: relative;
 				margin: 0;
 				padding-left: 30px;
-				border-bottom: 1px solid #9AD662;
+				border-bottom: 1px solid #9ad662;
 
 				@include option.pad {
 					padding-left: 30px;
 				}
 
 				&:first-child_ {
-					border-top: 1px solid #9AD662;
+					border-top: 1px solid #9ad662;
 				}
 
 				a {
@@ -315,8 +302,8 @@ nav {
 						background: #e4e4e4;
 					}
 
-					&:after{
-						content:'';
+					&:after {
+						content: '';
 						display: inline-block;
 						position: absolute;
 						top: 50%;
@@ -341,7 +328,7 @@ nav {
 	top: 50%;
 	right: 0;
 	transform: translate(0, -50%);
-	transition: all .5s;
+	transition: all 0.5s;
 	cursor: pointer;
 	z-index: 7;
 
@@ -358,7 +345,7 @@ nav {
 			transform: translate(-50%, -50%) rotate(90deg);
 			background-color: #333;
 			border-radius: 4px;
-			transition: all .5s;
+			transition: all 0.5s;
 
 			&:nth-child(1) {
 				left: 45%;
@@ -405,7 +392,7 @@ nav {
 		width: 100%;
 		height: 100%;
 		background: #000;
-		opacity: .8;
+		opacity: 0.8;
 		z-index: 2;
 		cursor: pointer;
 	}
@@ -413,7 +400,7 @@ nav {
 
 #mask {
 	display: none;
-	transition: all .5s;
+	transition: all 0.5s;
 }
 
 /* top scroll */
@@ -426,7 +413,7 @@ nav {
 	z-index: 999;
 	bottom: 0;
 	right: 0;
-	transition: .6s;
+	transition: 0.6s;
 	opacity: 0;
 
 	&::before {
@@ -434,7 +421,7 @@ nav {
 		top: 50%;
 		left: 50%;
 		margin: auto;
-		content: "";
+		content: '';
 		vertical-align: middle;
 		width: 8px;
 		height: 8px;
@@ -459,7 +446,7 @@ nav {
 
 /* footer */
 .footer {
-	background-color: #2A2A2A;
+	background-color: #2a2a2a;
 	background-size: 7px 7px;
 	background-image: radial-gradient(#888 5%, transparent 5%);
 	padding: 30px 0 20px 0;
@@ -478,10 +465,9 @@ nav {
 			height: 135px;
 			margin-right: 60px;
 
-			img{
+			img {
 				width: auto;
 			}
-
 		}
 
 		ul {
@@ -502,13 +488,12 @@ nav {
 		max-width: 1100px;
 		margin: 0 auto;
 		text-align: right;
-		color: #A5A5A5;
+		color: #a5a5a5;
 		@include option.sp {
 			text-align: center;
 		}
 	}
 }
-
 
 @keyframes bottom {
 	0% {

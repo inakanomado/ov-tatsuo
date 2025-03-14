@@ -598,6 +598,42 @@ h2 span img {
     width: 800px;
   }
 }
+.initiative-cont .inner .flow-inner:last-child .list .box {
+  width: calc(100% / 4 - 60px / 4);
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+.initiative-cont .inner .flow-inner:last-child .list .box:nth-child(4n) {
+  margin-right: 0;
+}
+@media (max-width: 600px) {
+  .initiative-cont .inner .flow-inner:last-child .list .box {
+    width: calc(100% / 1 - 0px / 1);
+    margin-right: 0px;
+  }
+  .initiative-cont .inner .flow-inner:last-child .list .box:nth-child(1n) {
+    margin-right: 0;
+  }
+}
+.initiative-cont .inner .flow-inner:last-child .list .box .image {
+  width: 100%;
+  height: 150px;
+}
+.initiative-cont .inner .flow-inner:last-child .list .box .content {
+  height: calc(100% - 150px);
+}
+.initiative-cont .inner .flow-inner:last-child .list .box .content .head {
+  text-align: left;
+  min-height: 50px; /* 高さをある程度統一（適宜調整） */
+  line-height: 1.75;
+}
 
 .sns-cont {
   width: calc(100% - 100px);

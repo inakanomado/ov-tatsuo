@@ -121,7 +121,7 @@
 				令和5年4月27日、以下の内容で丹波篠山市長がオーガニックビレッジ宣言を行いました。
 				<div class="btn">
 					<a class="flex relative" href="/wp-content/uploads/2023/04/オーガニックビレッジ宣言.pdf">
-						詳しくはこちら
+						宣言文はこちら
 					</a>
 				</div>
 			</div>
@@ -253,7 +253,7 @@
 					</div>
 				</div>
 
-				<h3 class="relative">黒大豆有機栽培実証</h3>
+				<h3 class="relative">黒大豆黒枝豆有機栽培実証</h3>
 
 				<div class="list flex">
 					<div class="box">
@@ -337,7 +337,7 @@
 						<div class="content">
 							<div class="head">
 								吉良 佳晃さん
-								<span>丹波篠山　良農園（不来坂）</span>
+								<span>丹波篠山吉良農園（不来坂）</span>
 							</div>
 							<div class="text">
 								緑肥を使った栽培や、有機肥料の効果比較などを行いました。実証1年目で一定の収量が得られました。得られた情報や栽培事例を紹介し、有機農業者の仲間づくりを進めます。
